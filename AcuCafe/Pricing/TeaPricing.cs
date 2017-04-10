@@ -4,7 +4,9 @@ namespace AcuCafe.Pricing
 {
     public class TeaPricing : DefaultPricing
     {
-
+        public TeaPricing(decimal drinkBaseMenuPrice) : base(drinkBaseMenuPrice)
+        {
+        }
         public override void ProccessSugar(Sugar concreteElementA)
         {
             TotalPrice += 20;
@@ -17,11 +19,9 @@ namespace AcuCafe.Pricing
 
         public override void ProccessChocolateTopping(ChocolateTopping concreteElementB)
         {
- 
+
         }
 
-        public TeaPricing(decimal drinkBaseMenuPrice) : base(drinkBaseMenuPrice)
-        {
-        }
+
     }
 }

@@ -7,7 +7,7 @@ namespace AcuCafe.Pricing
     {
         private readonly decimal _drinkBaseMenuPrice;
 
-        public DefaultPricing(decimal drinkBaseMenuPrice)
+        protected DefaultPricing(decimal drinkBaseMenuPrice)
         {
             _drinkBaseMenuPrice = drinkBaseMenuPrice;
         }

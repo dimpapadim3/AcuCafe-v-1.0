@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Domain\Coffee.cs" />
     <Compile Include="Domain\ChocolateTopping.cs" />
+    <Compile Include="Domain\NotAllowedIngredientException.cs" />
     <Compile Include="Interfaces\IPreparationStrategy.cs" />
     <Compile Include="AcuCafeLogger.cs" />
     <Compile Include="Preparation\PreparationStartegy.cs" />

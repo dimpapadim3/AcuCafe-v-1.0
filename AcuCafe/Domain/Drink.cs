@@ -1,5 +1,4 @@
-﻿using System;
-using System.CodeDom;
+﻿using System.CodeDom;
 using System.Collections.Generic;
 using AcuCafe.Interfaces;
 using AcuCafe.Specification;
@@ -31,13 +30,5 @@ namespace AcuCafe.Domain
             preparationStartegy.Prepare(this);
         }
 
-    }
-
-    public class NotAllowedIngredientException : Exception
-    {
-        public NotAllowedIngredientException(string s)
-        {
-
-        }
     }
 }

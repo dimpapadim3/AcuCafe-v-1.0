@@ -6,14 +6,14 @@ namespace AcuCafe.Specification
 {
     public class MenuItem
     { 
-        IList<Specification> Specifications { get; set; } = new  List<Specification>();
+        IList<Specification> Specifications { get; } = new  List<Specification>();
          
         public bool CanAdd(Ingerdient ingredient)
         {
             return Specifications.All(specification => specification.CanAdd(ingredient)); 
         }
 
-        public MenuItem AddSpecification(AcuCafe.Specification.Specification specification)
+        public MenuItem AddSpecification(Specification specification)
         {
             Specifications.Add(specification);
             return this;
