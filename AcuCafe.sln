@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcuCafe", "AcuCafe\AcuCafe.csproj", "{26748883-5FB5-45B2-A7D4-2B4E8C8E8F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcuCafe.Tests", "AcuCafe.Tests\AcuCafe.Tests.csproj", "{3CD504B6-EE00-466E-AB04-A1D011F68784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26748883-5FB5-45B2-A7D4-2B4E8C8E8F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26748883-5FB5-45B2-A7D4-2B4E8C8E8F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26748883-5FB5-45B2-A7D4-2B4E8C8E8F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26748883-5FB5-45B2-A7D4-2B4E8C8E8F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD504B6-EE00-466E-AB04-A1D011F68784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD504B6-EE00-466E-AB04-A1D011F68784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD504B6-EE00-466E-AB04-A1D011F68784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD504B6-EE00-466E-AB04-A1D011F68784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
